@@ -1,0 +1,1 @@
+{"result":{"text":"open parentheses fraction numerator d over denominator d y end fraction x over v equals fraction numerator x to the power of 1 v minus x v to the power of 1 over denominator v squared end fraction close parentheses"},"status":"ok"}

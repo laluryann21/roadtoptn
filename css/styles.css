@@ -1,0 +1,415 @@
+/* All Devices */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+
+footer a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.navbar {
+    border-bottom: .5px solid #EEE;
+    z-index: 5;
+}
+
+.navbar .navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar .navbar-toggler i {
+    color: #0066A2;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.navbar .nav-item {
+    margin-left: 20px;
+}
+
+.sign {
+    border-radius: 18px;
+    color: white !important;
+    background: linear-gradient(to bottom,#0098FA,#0066A2) !important;
+    box-shadow: none !important;
+}
+
+/* Mobile navbar */
+#mobile-navbar {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+}
+
+#mobile-navbar ul {
+    padding: 80px 20px;
+    text-align: center;
+    height: 100%;
+}
+
+#mobile-navbar ul li {
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+#mobile-navbar ul li a {
+    text-decoration: none !important;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+#mobile-navbar ul li a.sign {
+    padding: 10px 80px;
+    border-radius: 18px;
+    color: white !important;
+    background-image: linear-gradient(to bottom,#0098FA,#0066A2) !important;
+}
+
+/* Banner */
+.bg-banner {
+    position: relative;
+    background-image: url('../img/banner/1.png');
+    height: 700px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.bg-banner .wrap-text {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.bg-banner .wrap-text h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: white;
+    font-weight: 100;
+}
+
+.bg-banner .wrap-text h2 strong {
+    font-weight: 700 !important;
+}
+
+.bg-banner .wrap-text .button-1 {
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: none !important;
+}
+
+/* Layanan */
+#layanan {
+    margin-top: 80px;
+}
+
+#layanan .jenis-layanan {
+    margin-top: 80px;
+}
+
+#layanan .jenis-layanan p, #testimoni p {
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Galeri */
+#galeri {
+    background-color: #F3FAFF;
+    margin-top: 80px;
+}
+
+#galeri img {
+    transition: transform .5s;
+}
+
+#galeri img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+#galeri h3 {
+    font-weight: 700;
+}
+
+#galeri p {
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Footer */
+footer {
+    background-color: #0098FA;
+}
+
+footer h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+footer .sosmed {
+    color: white;
+    font-size: 24px;
+}
+
+/* Form auth */
+
+#form-auth h5 {
+    font-weight: 700;
+}
+
+#form-auth p, #form-auth input {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#form-auth img {
+    width: 200px;
+}
+
+#form-auth button {
+    font-weight: 700;
+    color: white !important;
+    background-color: #0098FA !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+#form-auth a {
+    font-size: 14px;
+    color: #0098FA;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#form-auth .no-account {
+    font-size: 14px;
+}
+
+#form-auth .wrap-btn-google img {
+    width: 35px;
+    border-radius: .25rem;
+}
+
+#form-auth .divider-or::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 50%;
+    background-color: #EEE;
+    margin-right: 20px;
+}
+
+#form-auth .divider-or::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 50%;
+    background-color: #EEE;
+    margin-left: 20px;
+}
+
+input, select, .select2-results__options, .select2-selection__rendered {
+    box-shadow: none !important;
+    outline: none !important;
+    font-family: 'Quicksand', sans-serif;
+    outline: none !important;
+}
+
+input:focus {
+    border: 1px solid #0098FA !important;
+}
+
+input.is-invalid {
+    border: 1px solid #FF5A52 !important;
+}
+
+/* Dashboard user */
+.wrap-content {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#sidebar a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#sidebar a:hover, #sidebar a.active {
+    border: 1px solid #EEE;
+}
+
+/* Profile page */
+.wrap-profile-content {
+    border: 1px solid #EEE;
+    border-radius: 3px;
+}
+
+.wrap-profile img {
+    width: 100px;
+}
+
+/* Utilities */
+.text-1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.f-400 {
+    font-weight: 400;
+}
+
+.road-to {
+    color: #A0ACBD;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.f-700 {
+    font-weight: 700;
+}
+
+.f-600 {
+    font-weight: 600;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.btn-primary {
+    background-color: #0098FA !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.btn-secondary {
+    background-color: #EEE !important;
+    color: black !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.badge-primary {
+    background-color: #0098FA !important;
+    border-color: transparent !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.pagination li button {
+    box-shadow: none !important;
+}
+
+.color-text-1 {
+    color: #0098FA;
+}
+
+.color-text-2 {
+    color: #A0ACBD;
+}
+
+/* Soal */
+.wrap-jawaban span {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.wrap-jawaban-btn .btn {
+    margin-right: 20px;
+}
+
+.pagination-all {
+    list-style: none;
+    padding: 0;
+}
+
+.progress-bar {
+    background-color: #0098FA;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Banner */
+    .bg-banner {
+        height: 800px;
+    }
+
+    .bg-banner .wrap-text {
+        top: 300px;
+    }
+
+    .bg-banner .wrap-text h2 {
+        font-size: 48px;
+    }
+
+    /* Galeri */
+    #galeri p {
+        font-size: 14px;
+    }
+}
+
+/* (1920x1080) Full HD Display */
+@media screen and (min-width: 1920px) {
+    .bg-banner .wrap-text {
+        top: 380px;
+    }
+}

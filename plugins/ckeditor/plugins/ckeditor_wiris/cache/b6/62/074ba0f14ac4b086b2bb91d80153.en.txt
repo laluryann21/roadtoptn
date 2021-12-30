@@ -1,0 +1,1 @@
+{"result":{"text":"a x plus b y space equals space 1"},"status":"ok"}
